@@ -59,6 +59,7 @@
                             </ul>
                         </div>
                     @endif
+                    <x-alert type="danger" :session="session('danger')"/>
 				</form>
 			</div>
 			<div class="card-footer">

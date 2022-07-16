@@ -47,9 +47,6 @@
 						</div>
 						<input type="password" class="form-control" placeholder="password" name="password">
 					</div>
-					<div class="form-group">
-						<input type="submit" value="Login" class="btn float-right login_btn">
-					</div>
                     @if ($errors->any())
                         <div class="alert alert-danger">
                             <ul>
@@ -59,6 +56,9 @@
                             </ul>
                         </div>
                     @endif
+                    <div class="form-group">
+						<input type="submit" value="Login" class="btn float-right login_btn">
+					</div>
 				</form>
 			</div>
 			<div class="card-footer">
